@@ -1,0 +1,6 @@
+D:\mvcMedicalProject\SharedLayer\bin\Debug\SharedLayer.dll
+D:\mvcMedicalProject\SharedLayer\bin\Debug\SharedLayer.pdb
+D:\mvcMedicalProject\SharedLayer\obj\Debug\SharedLayer.csproj.AssemblyReference.cache
+D:\mvcMedicalProject\SharedLayer\obj\Debug\SharedLayer.csproj.CoreCompileInputs.cache
+D:\mvcMedicalProject\SharedLayer\obj\Debug\SharedLayer.dll
+D:\mvcMedicalProject\SharedLayer\obj\Debug\SharedLayer.pdb

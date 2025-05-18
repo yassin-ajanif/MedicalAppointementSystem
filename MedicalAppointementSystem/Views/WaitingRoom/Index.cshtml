@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<section class="waiting-section">
+
+    <h2 >Patient n°</h2>
+
+    <div class="spinner-container">
+        <div class="spinner"></div>
+        <div class="spinner-text">25</div>
+    </div>
+
+</section> 
+
+
+
+ <h1 class="warning-text-color text-center pt-3">Doctor is unavailable</h1>
+ 
+<div class="text-center">
+    <img src="~/Images/people waiting.png" class="img-responsive-custom " alt="Responsive image" />
+</div>
+
+
+
+<style>
+
+    .img-responsive-custom {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @@media (min-width: 768px) {
+        .img-responsive-custom {
+            width: 60%;
+        }
+    }
+
+
+
+    @@media (min-width: 768px) {
+
+        .waiting-section {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            right: 25%;
+            top: 10%;
+        }
+    }
+
+    .waiting-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+    .spinner-container {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    .spinner {
+        width: 100%;
+        height: 100%;
+        border: 8px solid #f3f3f3;
+        border-top: 6px solid #5aa2ab;
+        border-right: 7px solid #5aa2ab;
+        border-bottom: 8px solid #5aa2ab;
+        border-radius: 50%;
+        animation: spin 2s ease infinite;
+    }
+
+    .spinner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5rem;
+        font-weight: bold;
+        
+    }
+
+    @@keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>

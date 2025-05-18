@@ -1,0 +1,16 @@
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\MedicalAppointementDataLayer.dll.config
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\MedicalAppointementDataLayer.dll
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\MedicalAppointementDataLayer.pdb
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\EntityFramework.dll
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\SharedLayer.dll
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\SharedLayer.pdb
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\EntityFramework.xml
+D:\mvcMedicalProject\MedicalAppointementDataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.csproj.AssemblyReference.cache
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.Migrations.initDb.resources
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.csproj.GenerateResource.cache
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.csproj.CoreCompileInputs.cache
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalA.AD62B7F7.Up2Date
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.dll
+D:\mvcMedicalProject\MedicalAppointementDataLayer\obj\Debug\MedicalAppointementDataLayer.pdb

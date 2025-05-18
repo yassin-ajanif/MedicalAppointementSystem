@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-nav shadow-sm ">
+
+    <div class="container-fluid d-block">
+        <!-- Navbar Toggler for Mobile -->
+
+        <section class="d-sm-none text-center ">
+            <button class="navbar-toggler "
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mobileNav"
+                    aria-controls="mobileNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Block for buttons (visible on mobile, collapsible) -->
+            <div class="navbar-nav collapse  mt-3 " id="mobileNav" style="width:fit-content; margin:auto">
+                <button class="btn d-block btn-success mb-2 bg-transparent shadow-none fw-bold">Start Session</button>
+                <button class="btn d-block btn-danger mb-2 bg-transparent shadow-none fw-bold">End Session</button>
+                <button class="btn d-block btn-warning mb-2 bg-transparent shadow-none fw-bold">Unavailable Doctor</button>
+                <button class="btn btn-secondary fw-bold bg-white rounded-4 p-0 m-auto fw-bold" style="width:fit-content"><img src="~/Images/OnOff.svg" /></button>
+            </div>
+
+        </section>
+
+        <!-- Block for buttons (visible on desktop and tablet) -->
+        <div class="collapse navbar-collapse d-sm-flex  fw-bold" id="navbarNav">
+            <div class="d-flex flex-grow-1  justify-content-between">
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-primary me-2 fw-bold">Start Session</button>
+                    <button class="btn btn-danger fw-bold">End Session</button>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-warning me-2 fw-bold text-white">Unavailable Doctor</button>
+                    <button class="btn btn-secondary fw-bold bg-white rounded-4 px-1 py-0"><img src="~/Images/OnOff.svg"/></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+

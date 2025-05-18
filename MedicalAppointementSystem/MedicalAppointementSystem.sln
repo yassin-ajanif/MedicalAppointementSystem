@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointementSystem", "MedicalAppointementSystem.csproj", "{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointementDataLayer", "..\MedicalAppointementDataLayer\MedicalAppointementDataLayer.csproj", "{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLayer", "..\SharedLayer\SharedLayer.csproj", "{ABFDB4DE-57BD-4ECD-A1C2-098C415913CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointementBusinessLayer", "..\MedicalAppointementBusinessLayer\MedicalAppointementBusinessLayer.csproj", "{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFDB4DE-57BD-4ECD-A1C2-098C415913CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFDB4DE-57BD-4ECD-A1C2-098C415913CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFDB4DE-57BD-4ECD-A1C2-098C415913CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFDB4DE-57BD-4ECD-A1C2-098C415913CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
