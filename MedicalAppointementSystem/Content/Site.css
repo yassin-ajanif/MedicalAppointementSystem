@@ -1,6 +1,20 @@
 ﻿/* Set padding to keep content from hitting the edges */
 
 
+@font-face {
+    font-family: 'MyFont';
+    src: url('/Font/MadimiOne-Regular.ttf') format('truetype');
+}
+
+
+body {
+
+    font-family: "MyFont" !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 .body-content {
     margin-top: 15px;
     padding-left: 15px;

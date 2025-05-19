@@ -24,7 +24,8 @@ namespace MedicalAppointementSystem.App_Start
 
         public object GetService(Type serviceType)
         {
-            return _serviceProvider.GetService(serviceType);
+            var test = _serviceProvider.GetService(serviceType);
+            return test;
         }
 
         public IEnumerable<object> GetServices(Type serviceType)

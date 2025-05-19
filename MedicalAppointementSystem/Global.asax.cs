@@ -24,7 +24,7 @@ namespace MedicalAppointementSystem
 
             // Register your services and repositories here
             services.AddScoped<IUserService,userService>();
-            services.AddScoped<HomeController>();
+            services.AddTransient<HomeController>();
             // register data acces repositories we can't access them from this refrence project
             DependencyConfig.RegisterDataLayerRepositories(services);
 

@@ -3,28 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+
+    <!-- Syncfusion ASP.NET MVC controls styles -->
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/29.1.33/fluent.css" />
+    <!-- Syncfusion ASP.NET MVC controls scripts -->
+    <script src="https://cdn.syncfusion.com/ej2/29.1.33/dist/ej2.min.js"></script>
+
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/ej2/bootstrap.css")
+    @Scripts.Render("~/Scripts/ej2/ej2.min.js")
 </head>
 <body>
 
-    
+
 
     <div class="app-background">
 
         <img src="~/Images/right door.svg" class="right-door-background d-none d-md-block " />
-       
+
         <img src="~/Images/left door.svg" class="left-door-background d-none d-md-block " />
 
         @RenderBody()
 
+
     </div>
 
-   
 
+    @Html.EJS().ScriptManager()
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
+

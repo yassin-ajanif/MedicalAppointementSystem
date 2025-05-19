@@ -1,3 +1,4 @@
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\Font\MadimiOne-Regular.ttf
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementSystem.dll.config
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementSystem.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementSystem.pdb
@@ -51,9 +52,7 @@ D:\mvcMedicalProject\MedicalAppointementSystem\bin\roslyn\vbc.rsp
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\roslyn\VBCSCompiler.exe
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\roslyn\VBCSCompiler.exe.config
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Antlr3.Runtime.dll
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementBusinessLayer.dll
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Bcl.AsyncInterfaces.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -61,6 +60,8 @@ D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Extensions.Dependen
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Web.Infrastructure.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Newtonsoft.Json.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\SharedLayer.dll
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\Syncfusion.EJ2.dll
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\Syncfusion.Licensing.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Net.Http.Formatting.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Runtime.CompilerServices.Unsafe.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Threading.Tasks.Extensions.dll
@@ -74,14 +75,15 @@ D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Web.WebPages.Deploymen
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Web.WebPages.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Web.WebPages.Razor.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\WebGrease.dll
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.dll
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.dll
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.SqlServer.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementBusinessLayer.pdb
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.pdb
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.dll.config
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\SharedLayer.pdb
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Bcl.AsyncInterfaces.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Extensions.DependencyInjection.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\Syncfusion.EJ2.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Runtime.CompilerServices.Unsafe.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Threading.Tasks.Extensions.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Newtonsoft.Json.xml
@@ -97,10 +99,12 @@ D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Web.WebPages.Deploymen
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\System.Web.WebPages.Razor.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Antlr3.Runtime.pdb
 D:\mvcMedicalProject\MedicalAppointementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.pdb
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\MedicalAppointementDataLayer.dll.config
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.xml
+D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.SqlServer.xml
 D:\mvcMedicalProject\MedicalAppointementSystem\obj\Debug\MedicalAppointementSystem.csproj.AssemblyReference.cache
 D:\mvcMedicalProject\MedicalAppointementSystem\obj\Debug\MedicalAppointementSystem.csproj.CoreCompileInputs.cache
 D:\mvcMedicalProject\MedicalAppointementSystem\obj\Debug\MedicalA.03684CFA.Up2Date
 D:\mvcMedicalProject\MedicalAppointementSystem\obj\Debug\MedicalAppointementSystem.dll
 D:\mvcMedicalProject\MedicalAppointementSystem\obj\Debug\MedicalAppointementSystem.pdb
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.SqlServer.dll
-D:\mvcMedicalProject\MedicalAppointementSystem\bin\EntityFramework.SqlServer.xml

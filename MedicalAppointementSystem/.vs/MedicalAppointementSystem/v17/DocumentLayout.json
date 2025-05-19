@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|d:\\mvcmedicalproject\\medicalappointementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|d:\\mvcmedicalproject\\medicalappointementsystem\\views\\waitingroom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|solutionrelative:views\\waitingroom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|D:\\mvcMedicalProject\\MedicalAppointementSystem\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}|..\\MedicalAppointementBusinessLayer\\MedicalAppointementBusinessLayer.csproj|d:\\mvcmedicalproject\\medicalappointementbusinesslayer\\dependencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}|..\\MedicalAppointementBusinessLayer\\MedicalAppointementBusinessLayer.csproj|d:\\mvcmedicalproject\\medicalappointementbusinesslayer\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA108490-9C37-42C8-B5F4-6F5CDC9C61BA}|..\\MedicalAppointementDataLayer\\MedicalAppointementDataLayer.csproj|d:\\mvcmedicalproject\\medicalappointementdatalayer\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E17CE6DF-CE84-425A-9855-E91FA8C14E4B}|..\\MedicalAppointementBusinessLayer\\MedicalAppointementBusinessLayer.csproj|d:\\mvcmedicalproject\\medicalappointementbusinesslayer\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|D:\\mvcMedicalProject\\MedicalAppointementSystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA2FA9B2-9EEC-4054-8B56-E056BFFFCB94}|MedicalAppointementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,76 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementDataLayer\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\MedicalAppointementDataLayer\\UserRepository.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementDataLayer\\UserRepository.cs",
-              "RelativeToolTip": "..\\MedicalAppointementDataLayer\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:59:22.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\MedicalAppointementBusinessLayer\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\MedicalAppointementBusinessLayer\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:43:15.633Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Views\\WaitingRoom\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\WaitingRoom\\Index.cshtml",
+              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Views\\WaitingRoom\\Index.cshtml",
+              "RelativeToolTip": "Views\\WaitingRoom\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T19:13:44.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwBkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:41:56.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependencyConfig.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\DependencyConfig.cs",
-              "RelativeDocumentMoniker": "..\\MedicalAppointementBusinessLayer\\DependencyConfig.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\DependencyConfig.cs*",
-              "RelativeToolTip": "..\\MedicalAppointementBusinessLayer\\DependencyConfig.cs*",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvxMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:38:54.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "userService.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\userService.cs",
-              "RelativeDocumentMoniker": "..\\MedicalAppointementBusinessLayer\\userService.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementBusinessLayer\\userService.cs",
-              "RelativeToolTip": "..\\MedicalAppointementBusinessLayer\\userService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCQAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T19:00:17.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvxcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T10:45:09.3Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\mvcMedicalProject\\MedicalAppointementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:27:12.301Z"
             }
           ]
         }
