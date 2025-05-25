@@ -53,7 +53,8 @@
                 <div class="left-panel">
                     <div class="overview-scheduler">
 
-                        @Html.EJS().Schedule("scheduler").FirstDayOfWeek(1).StartHour(((DateTime)ViewData["DayStartHour"]).ToString("HH:mm"
+                        @Html.EJS().Schedule("scheduler").FirstDayOfWeek(1).EditorTemplate("#EventEditorTemplate"
+                       ).PopupOpen("onPopupOpen").StartHour(((DateTime)ViewData["DayStartHour"]).ToString("HH:mm"
                         )).EndHour(((DateTime)ViewData["DayEndHour"]).ToString("HH:mm")).WorkHours(wh => wh
                         .Start(((DateTime)ViewData["WorkStartHour"]).ToString("HH:mm"))
                         .End(((DateTime)ViewData["WorkEndHour"]).ToString("HH:mm"))
@@ -497,6 +498,43 @@
 
 </style>
 
+
+<script id="EventEditorTemplate" type="text/template">
+
+
+    <table class="custom-event-editor" width="100%" cellpadding="5">
+        <tbody>
+            <tr>
+                <td class="e-textlabel">Choose Client</td>
+                <td colspan="4" class="d-flex justify-content-between">
+                    <input id="addClient" type="text" value="" name="addClient" style="width: 100%" />
+                    <button class="btn btn-primary" style="font-size:0.8rem">add New Client</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="e-textlabel">From</td>
+                <td colspan="4">
+                    <input id="StartTime" class="e-field" type="text" name="StartTime" />
+                </td>
+            </tr>
+            <tr>
+                <td class="e-textlabel">To</td>
+                <td colspan="4">
+                    <input id="EndTime" class="e-field" type="text" name="EndTime" />
+                </td>
+            </tr>
+            <tr>
+                <td class="e-textlabel">Reason</td>
+                <td colspan="4">
+                    <textarea id="Description" class="e-field e-input" name="Description" rows="3" cols="50" style="width: 100%; height: 60px !important; resize: vertical"></textarea>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</script>
+
 <script type="text/javascript">
     var selectedTarget;
     var isTimelineView = false;
@@ -509,11 +547,11 @@
     };
 
 
-
     document.getElementById("printBtn").addEventListener("click", function () {
         var scheduleObj = document.getElementById('scheduler').ej2_instances[0];
         scheduleObj.print();
     });
+
     function onContextMenuBeforeOpen(args) {
         var newEventElement = document.querySelector('.e-new-event');
         if (newEventElement) {
@@ -850,4 +888,40 @@
             scheduleObj.eventSettings.enableTooltip = true;
         }
     }
+    function onPopupOpen(args) {
+
+        if (args.type === 'Editor') {
+
+            var startElement = args.element.querySelector('#StartTime');
+            if (!startElement.classList.contains('e-datetimepicker')) {
+                new ej.calendars.DateTimePicker({ value: new Date(startElement.value) || new Date() }, startElement);
+            }
+            var endElement = args.element.querySelector('#EndTime');
+            if (!endElement.classList.contains('e-datetimepicker')) {
+                new ej.calendars.DateTimePicker({ value: new Date(endElement.value) || new Date() }, endElement);
+            }
+
+            var endElement = args.element.querySelector('#addClient');
+            if (!endElement.classList.contains('e-autoComplete')) {
+
+                createAutoCompleteAndBindItWithElementID('#addClient')
+            }
+
+        }
+    }
+    function createAutoCompleteAndBindItWithElementID(elementID) {
+        var countries = ["requested","confirmed"];
+
+        // Initialize AutoComplete component
+        var atcObj2 = new ej.dropdowns.AutoComplete({
+            dataSource: countries,
+            fields: { value: 'Name' },
+            placeholder: 'e.g. Australia',
+            width: '50%',
+        });
+
+        // Render the AutoComplete component
+        atcObj2.appendTo(elementID);
+    }
+
 </script>

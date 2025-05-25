@@ -30,7 +30,7 @@ namespace MedicalAppointementSystem.Controllers
             return View();
         }
 
-
+       
 
         private List<AppointmentData> Getappointements()
         {
