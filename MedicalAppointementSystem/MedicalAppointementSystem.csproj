@@ -334,6 +334,7 @@
     <Content Include="Views\Navbar\Navbar.cshtml" />
     <Content Include="Views\WaitingRoom\Index.cshtml" />
     <Content Include="Views\Appointement\Index.cshtml" />
+    <Content Include="Views\Shared\partialView_AddNewPatientView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

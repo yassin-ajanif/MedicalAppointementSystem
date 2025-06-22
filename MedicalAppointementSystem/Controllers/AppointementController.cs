@@ -3,12 +3,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 
 
 namespace MedicalAppointementSystem.Controllers
-{  
-   
+{
+    public class HelloMessage
+    {
+        public string Message { get; set; }
+    }
 
     public class AppointementController : Controller
     {
@@ -30,7 +34,14 @@ namespace MedicalAppointementSystem.Controllers
             return View();
         }
 
-       
+        [System.Web.Http.HttpPost]
+        public JsonResult SayHello(HelloMessage data)
+        {
+            string message = data?.Message;
+
+            return Json(new { response = "Hello received: " + message });
+        }
+
 
         private List<AppointmentData> Getappointements()
         {

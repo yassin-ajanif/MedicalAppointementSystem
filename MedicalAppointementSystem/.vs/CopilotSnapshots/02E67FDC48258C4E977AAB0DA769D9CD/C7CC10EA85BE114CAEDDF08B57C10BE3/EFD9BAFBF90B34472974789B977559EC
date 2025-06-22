@@ -1,0 +1,47 @@
+﻿class PatientInfo {
+    constructor(firstName = null, lastname = null, age = null, phone = null, email = null, medicalHistory = null) {
+        this.firstName = firstName;
+        this.lastname = lastname;
+        this.age = age;
+        this.phone = phone;
+        this.email = email;
+        this.medicalHistory = medicalHistory;
+    }
+
+    // Reset all properties to null
+    reset() {
+        this.firstName = null;
+        this.lastname = null;
+        this.age = null;
+        this.phone = null;
+        this.email = null;
+        this.medicalHistory = null;
+    }
+
+    // Set all properties at once
+    setPatientInfo(firstName, lastname, age, phone, email, medicalHistory) {
+        this.firstName = firstName;
+        this.lastname = lastname;
+        this.age = age;
+        this.phone = phone;
+        this.email = email;
+        this.medicalHistory = medicalHistory;
+    }
+
+    // Get full name
+    getFullName() {
+        return `${this.firstName || ''} ${this.lastname || ''}`.trim();
+    }
+
+    // Convert to simple object
+    toObject() {
+        return {
+            firstName: this.firstName,
+            lastname: this.lastname,
+            age: this.age,
+            phone: this.phone,
+            email: this.email,
+            medicalHistory: this.medicalHistory
+        };
+    }
+}

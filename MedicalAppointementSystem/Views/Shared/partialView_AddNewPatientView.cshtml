@@ -1,0 +1,78 @@
+﻿
+
+
+<div class="modal fade" id="patientInfoModal" tabindex="-1"
+     aria-labelledby="patientInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document" style="width: 100%;">
+        <div class="modal-content">
+            <form id="patientInfoForm">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="patientInfoModalLabel">Enter Patient Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="form-group d-flex align-items-center my-2" style="gap: 1rem;">
+                        <div style="flex:1;">
+                            <label for="patientFirstName">First Name</label>
+                            <input type="text" class="form-control" id="patientFirstName" 
+                                   name="firstName" required 
+                                   title="First name must be at least 5 characters">
+                        </div>
+                        <div style="flex:1;">
+                            <label for="patientLastName">Last Name</label>
+                            <input type="text" class="form-control" id="patientLastName" name="lastName" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group d-flex align-items-center my-2" style="gap: 1rem;">
+                        <div style="flex:1;">
+                            <label for="patientDOB">Date of Birth</label>
+                            <input type="date" class="form-control" id="patientDOB" name="dob" required>
+                        </div>
+                        <div style="flex:1;">
+                            <label for="patientPhone">Phone</label>
+                            <input type="tel" class="form-control" id="patientPhone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex align-items-center my-2" style="gap: 1rem;">
+                        <div style="flex:1;">
+                            <label for="patientEmail">Email</label>
+                            <input type="email" class="form-control" id="patientEmail" name="email">
+                        </div>
+                        <div style="flex:1;">
+                            <label for="patientAddress">Address</label>
+                            <input type="text" class="form-control" id="patientAddress" name="address">
+                        </div>
+                    </div>
+
+                    <div class="form-group my-2">
+                        <label for="patientMedicalHistory">Medical History</label>
+                        <textarea class="form-control" id="patientMedicalHistory" name="medicalHistory" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" >Save Patient</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    document.getElementById('patientInfoForm').onsubmit = function (e) {
+        e.preventDefault(); // Stop the form from submitting normally (no page reload)
+        var data = {};
+        // Collect all form fields and their values into the 'data' object
+        Array.from(new FormData(this)).forEach(function ([k, v]) { data[k] = v; });
+        // Emit a custom event with the patient data
+        window.dispatchEvent(new CustomEvent('patientFormSubmitted', { detail: data }));
+    };
+</script>
